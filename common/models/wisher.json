@@ -1,0 +1,28 @@
+{
+  "name": "Wisher",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Wishlist_Id": {
+      "type": "hasOne",
+      "model": "Wishlist",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
