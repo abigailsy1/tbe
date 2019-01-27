@@ -13,9 +13,14 @@
     "less": "lessc src/css/style.less dist/css/style.css"
   },
   "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
     "axios": "^0.18.0",
+    "babel-loader": "^8.0.0-beta.6",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
+    "dotenv": "^6.1.0",
     "dotenv-webpack": "^1.5.7",
     "helmet": "^3.10.0",
     "less": "^3.8.1",
@@ -35,11 +40,7 @@
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^3.0.0",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.0-beta.6"
+    "webpack-cli": "^3.1.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
